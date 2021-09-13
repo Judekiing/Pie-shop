@@ -83,12 +83,46 @@
                                     </div>
                                     <div class="col-md-6 mb-3 form-group ">
                                         <label for="city">City</label>
+                                        <input type="text" class="form-control" id="city" placeholder="City">
                                     </div>
                                 </div>
 
                             </div>
-                        </div>
+                            <div class="row">
+                                <div class="col-md-4 mb-3 form-group">
+                                    <label for="state" >State</label>
+                                    <select class="custom-select w-100" id="state">
+                                        <option value="">Select state ...</option>
+                                        <option>Rivers</option>
+                                        <option> Imo</option>
+                                        <option> Abia</option>
+                                        <option> Akwa Ibom</option>
 
+                                    </select>
+                                </div>
+                                <div class="col-md-5 mb-3 form-group" >
+                                    <label for="country">Country</label>
+                                    <select class="custom-select w-100" id="country">
+                                        <option value=""> Select country ...</option>
+                                        <option> Nigeria</option>
+                                        <option> Ghana</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-group">
+                                    <label for="remark">Remark</label>
+                                    <textarea class="form-control" id="remark" rows="4"></textarea>
+                                </div>
+                            </div>
+                            <div class="mb-5">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="saveShipping">
+                                    <label class="custom-control-label" for="saveShipping">Remeber my shipping infomation</label>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-success btn-lg btn-block mb-3" type="submit">Place your order now</button>
                     </form>
                 </div>
             </div>
